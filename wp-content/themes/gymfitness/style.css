@@ -1,0 +1,23 @@
+/*
+    Theme Name: Gym Fitness JPTV
+    Theme URI: 
+    Author: Juan Pablo De la torre Valdez
+    Author URI: http://twitter.com/codigoconjuan
+    Description: Theme Diseñado para el Gimnasio GymFitness
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: Gym, gimnasio, flexbox, css grid, mobile first
+    Text Domain: gymfitness
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap');
+:root {
+    /* FUENTES */
+    --fuente-principal: 'Raleway', sans-serif;
+    --fuente-heading: 'Staatliches', sans-serif;
+}
+
+body{
+    font-family: var(--fuente-principal);
+}
